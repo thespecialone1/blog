@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home |</title>
+    <link>https://lahrasab.netlify.app/</link>
+    <description>Recent content on Home |</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Apr 2025 01:07:43 +0400</lastBuildDate>
+    <atom:link href="https://lahrasab.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Basics: Variables, Types, and Strings</title>
+      <link>https://lahrasab.netlify.app/blogs/go-basics/</link>
+      <pubDate>Thu, 03 Apr 2025 01:07:43 +0400</pubDate>
+      <guid>https://lahrasab.netlify.app/blogs/go-basics/</guid>
+      <description>&lt;h3 id=&#34;hows-it-going-yall-lets-learn-gos-basics-today&#34;&gt;How&amp;rsquo;s it going yall. Lets learn Go&amp;rsquo;s basics today!&lt;/h3&gt;
+&lt;p&gt;Alright, let&amp;rsquo;s dive into the absolute basics of Go! Think of this as your &amp;ldquo;Level 1&amp;rdquo; - getting comfy with the fundamentals. No scary stuff, promise!&lt;/p&gt;
+&lt;h3 id=&#34;variables--constants-the-building-blocks&#34;&gt;Variables &amp;amp; Constants: The Building Blocks&lt;/h3&gt;
+&lt;p&gt;First up, variables. In Go, you gotta declare &amp;rsquo;em before you use &amp;rsquo;em. Use the &lt;code&gt;var&lt;/code&gt; keyword, give it a name, and tell Go what &lt;em&gt;type&lt;/em&gt; it is[cite: 9, 21].&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://lahrasab.netlify.app/about/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://lahrasab.netlify.app/about/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
+&lt;p&gt;Welcome, and thanks for stopping by.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Lahrasab&lt;/strong&gt;, a curious mind navigating between technology and creativity.&lt;/p&gt;
+&lt;p&gt;A full-stack developer, tech enthusiast, and an observer of systems—whether it&amp;rsquo;s code, people, or how things work.&lt;/p&gt;
+&lt;p&gt;By day, I work in &lt;strong&gt;vehicle tracking and fleet management&lt;/strong&gt;, ensuring efficiency and safety with AI-powered monitoring systems. By night, I tinker with &lt;strong&gt;Go, HTMX, and Tailwind&lt;/strong&gt;, crafting clean, efficient web applications.&lt;/p&gt;
+&lt;p&gt;In daily life, I delve into backend technologies (such as Go and microservice architecture), while also dedicating myself to frontend development and user experience design. I continuously learn the latest development tools and methods, and try to apply them to personal projects to improve efficiency. My academic and leisure interests revolve around technological innovation, which not only enriches my knowledge base but also helps me grow in team collaboration and project management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Friends</title>
+      <link>https://lahrasab.netlify.app/friends/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://lahrasab.netlify.app/friends/</guid>
+      <description>&lt;p&gt;From time to time I will come to the friends who have turned over the chain of friends. Some of the old friends&amp;rsquo; domain names or websites may be temporarily removed if they fail. Please leave a new site information ~ (no order in the following rankings)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;want-to-be-listed-here&#34;&gt;Want to be listed here?&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;d like to be added to this friends page, please send me the following information:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Your name/nickname&lt;/li&gt;
+&lt;li&gt;URL to your website&lt;/li&gt;
+&lt;li&gt;A square avatar image (at least 100x100 pixels)&lt;/li&gt;
+&lt;li&gt;A short description or slogan (keep it under 50 characters)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can contact me via email at &lt;a href=&#34;mailto:your.email@example.com&#34;&gt;your.email@example.com&lt;/a&gt; with the subject &amp;ldquo;Friend Link Request&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://lahrasab.netlify.app/blogs/my-first-post/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://lahrasab.netlify.app/blogs/my-first-post/</guid>
+      <description>My journey into creating a static site with Hugo and the PaperMod theme</description>
+    </item>
+  </channel>
+</rss>
