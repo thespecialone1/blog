@@ -1,0 +1,40 @@
+list:
+  - name: "YuZhangWang's field"
+    url: "https://example1.com"
+    avatar: "/img/friends/friend1.jpg"
+    description: "PLUSULTRA!"
+    
+  - name: "Russell"
+    url: "https://example2.com"
+    avatar: "/img/friends/friend2.jpg"
+    description: "Keep eating codes!"
+    
+  - name: "Nelson Bass"
+    url: "https://example3.com"
+    avatar: "/img/friends/friend3.jpg"
+    description: "Swim until the sea water turns blue."
+    
+  - name: "Jorvi's Lab"
+    url: "https://example4.com"
+    avatar: "/img/friends/friend4.jpg"
+    description: "A place for self-entertainment."
+    
+  - name: "Moon Dream Technology Blog"
+    url: "https://example5.com"
+    avatar: "/img/friends/friend5.jpg"
+    description: "Be knowledgeable and determined, ask and learn."
+    
+  - name: "Lonely"
+    url: "https://example6.com"
+    avatar: "/img/friends/friend6.jpg"
+    description: "Brother VR."
+    
+  - name: "VnYzm"
+    url: "https://example7.com"
+    avatar: "/img/friends/friend7.jpg"
+    description: "The edge of the remote fishing village."
+    
+  - name: "Chasing1020"
+    url: "https://example8.com"
+    avatar: "/img/friends/friend8.jpg"
+    description: "Why there is a universe?"
