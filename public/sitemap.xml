@@ -2,63 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lahrasab.netlify.app/tags/basics/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/tags/basics/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/blogs/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/categories/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/tags/go/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/tags/go/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/categories/go-basics/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/categories/go-basics/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/blogs/go-basics/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/blogs/go-basics/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/tags/golang/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/tags/golang/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/tags/strings/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/tags/strings/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/tags/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/tags/tutorial/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/tags/types/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/tags/types/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/tags/variables/</loc>
-    <lastmod>2025-04-03T01:07:43+04:00</lastmod>
+    <loc>http://localhost:1313/tags/variables/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/about/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/tags/blogging/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/blogging/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/friends/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/friends/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/blogs/my-first-post/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blogs/my-first-post/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/tags/hugo/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/categories/tech/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/tech/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url><url>
-    <loc>https://lahrasab.netlify.app/search/</loc>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
+    <lastmod>2025-04-03T01:51:16+04:00</lastmod>
   </url>
 </urlset>

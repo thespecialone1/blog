@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Go Basics on Home |</title>
-    <link>https://lahrasab.netlify.app/categories/go-basics/</link>
+    <link>http://localhost:1313/categories/go-basics/</link>
     <description>Recent content in Go Basics on Home |</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Apr 2025 01:07:43 +0400</lastBuildDate>
-    <atom:link href="https://lahrasab.netlify.app/categories/go-basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Apr 2025 01:51:16 +0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/go-basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Basics: Variables, Types, and Strings</title>
-      <link>https://lahrasab.netlify.app/blogs/go-basics/</link>
+      <link>http://localhost:1313/blogs/go-basics/</link>
       <pubDate>Thu, 03 Apr 2025 01:07:43 +0400</pubDate>
-      <guid>https://lahrasab.netlify.app/blogs/go-basics/</guid>
+      <guid>http://localhost:1313/blogs/go-basics/</guid>
       <description>&lt;h3 id=&#34;hows-it-going-yall-lets-learn-gos-basics-today&#34;&gt;How&amp;rsquo;s it going yall. Lets learn Go&amp;rsquo;s basics today!&lt;/h3&gt;
 &lt;p&gt;Alright, let&amp;rsquo;s dive into the absolute basics of Go! Think of this as your &amp;ldquo;Level 1&amp;rdquo; - getting comfy with the fundamentals. No scary stuff, promise!&lt;/p&gt;
 &lt;h3 id=&#34;variables--constants-the-building-blocks&#34;&gt;Variables &amp;amp; Constants: The Building Blocks&lt;/h3&gt;

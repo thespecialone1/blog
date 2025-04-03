@@ -1,93 +1,205 @@
+# Base URL of your site
 baseURL: https://lahrasab.netlify.app/
+# Default language for the site
 languageCode: en-us
-title: Home |
+# Site title (appears in browser tabs and potentially the header)
+title: Home | # Changed to be more descriptive
+# Theme(s) being used
 theme: ["PaperMod"]
 
-params:
-  # Enable search
-  enableSearch: true
-  searchHidden: false
+# Pagination settings (New structure)
+pagination:
+  pagerSize: 5 # Show 5 posts per page on list pages
 
-  comments: true
-  disqusShortname: "lahrasab"
-  mainSections:
-    - "blogs"  # This should match the directory where your posts are stored
-  
+# Enable robots.txt generation
+enableRobotsTXT: true
+# Enable Git commit info (useful for 'last modified' dates)
+enableGitInfo: true
+
+# Site parameters (theme-specific and custom)
+params:
+  # Site description for SEO
+  description: "Exploring tech, life, and everything in between. Join me on my journey."
+  # Author name
+  author: Lahrasab Ramzan # Add your name here
+  # Default theme (auto, light, dark)
+  defaultTheme: auto # Let the user's system decide
+  # Hide theme toggle button?
+  disableThemeToggle: false
+  # Show last modified date on posts?
+  ShowLastMod: true
+  # Show reading time estimate on posts?
+  ShowReadingTime: true
+  # Show word count on posts?
+  ShowWordCount: true
+  # Show post navigation links (Previous/Next)?
+  ShowPostNavLinks: true
+  # Show breadcrumb navigation?
+  ShowBreadCrumbs: true
+  # Show Table of Contents?
+  ShowToc: true
+  # Keep Table of Contents open by default?
+  TocOpen: false # Keep it closed initially for cleaner look
+
+  # Enable search functionality
+  enableSearch: true
+  # Options for Fuse.js search library
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
     location: 0
     distance: 1000
     threshold: 0.4
-    minMatchCharLength: 0
-    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
-    
+    minMatchCharLength: 2 # Increased slightly
+    keys: ["title", "permalink", "summary", "content", "tags"] # Added tags
+
+  # Profile Mode settings for the homepage
   profileMode:
     enabled: true
-    title: "Hi there👋!" # optional default will be site title
-    subtitle: "Always pursue sunrises and sunsets."
-    imageUrl: "/homePage/nyantocat.gif" # optional
-    imageTitle: "" # optional
-    imageWidth: 60 # custom size
-    imageHeight: 60 # custom size
+    title: "Hi there👋!" # Optional, defaults to site title
+    subtitle: "Always pursue sunrises and sunsets. Exploring code, creativity, and curiosity." # Enhanced subtitle
+    # Image URL for profile picture (ensure this exists in /static/homePage/nyantocat.gif)
+    imageUrl: "homePage/nyantocat.gif"
+    imageTitle: "Nyan Cat" # Alt text for the image
+    imageWidth: 120 # Increased size for more impact
+    imageHeight: 120 # Increased size for more impact
     buttons:
-      - name: Archive
-        url: "/archive"
       - name: Blogs
         url: "/blogs"
-      - name: Misc
-        url: "/categories/misc"
+      - name: Archives
+        url: "/archives"
+      - name: Categories
+        url: "/categories"
       - name: Tags
         url: "/tags"
+      # - name: About # Consider adding an About Me button if you have an /about page
+      #    url: "/about"
 
-  socialIcons: # optional
+  # Social media icons in the header/footer
+  socialIcons:
     - name: "github"
       url: "https://github.com/thespecialone1"
-    - name: "x"
-      url: "https://x.com/yourusername"
+    - name: "x" # Assuming 'x' is Twitter/X
+      url: "https://x.com/yourusername" # Replace with your actual X username URL
     - name: "email"
       url: "mailto:lahrasab.ramzan36@egmail.com"
+    # Add more social links if you have them (e.g., LinkedIn, Mastodon)
+    # - name: "linkedin"
+    #   url: "https://linkedin.com/in/yourusername"
 
+  # Comments configuration (using Disqus)
+  comments: true
+  disqusShortname: "lahrasab" # Your Disqus shortname
+
+  # Assets configuration for CSS/JS
+  assets:
+    # Favicon files (place these in your /static folder)
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+    # Disable fingerprinting of assets if needed (e.g., for Netlify caching)
+    # disableFingerprinting: true
+
+  # Optional: Add a logo to the header (place in /static/images/)
+  # logo:
+  #   text: "Lahrasab's Blog" # Text logo if no image
+  #   # light: /images/logo-light.png # Path to light mode logo
+  #   # dark: /images/logo-dark.png # Path to dark mode logo
+
+  # Cover image settings for posts (optional)
+  # cover:
+  #   hidden: false # hide everywhere but not in structured data
+  #   hiddenInList: false # hide on list pages and home
+  #   hiddenInSingle: false # hide on single page
+
+# Main sections of your site (used for homepage posts if not in profile mode)
+mainSections:
+  - "blogs" # Ensure your posts are in content/blogs/
+
+# Menu configuration
+menu:
+  main:
+    - identifier: blogs
+      name: Blogs
+      url: /blogs/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20 # Corrected duplicate and weight
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30 # Adjusted weight
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50 # Moved search towards the end
+    - identifier: about # Optional: Add About page link
+      name: About
+      url: /about/
+      weight: 60
+    # - identifier: friends # Uncomment if you use the friends page
+    #   name: Friends
+    #   url: /friends/
+    #   weight: 70
+
+# Output formats for different kinds of pages
 outputs:
   home:
     - HTML
     - RSS
-    - JSON # necessary for search
+    - JSON # Necessary for search
+  page:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+  taxonomy:
+    - HTML
+    - RSS
+  term:
+    - HTML
+    - RSS
 
-menu:
-  main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 15
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 25
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 5
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    # - identifier: friends
-    #   name: Friends
-    #   url: /friends/
-    #   weight: 60
-
-# Enable Unsafe HTML in Goldmark (If Needed)
+# Markdown renderer configuration
 markup:
+  # Goldmark is Hugo's default Markdown engine
   goldmark:
     renderer:
+      # Enable rendering of raw HTML embedded in Markdown
+      # Use with caution, especially if you ever allow external content contributions.
       unsafe: true
+    # Configure code highlighting
+  highlight:
+    # Choose a style from https://xyproto.github.io/splash/docs/all.html
+    style: dracula # A popular dark theme style
+    # Show line numbers?
+    lineNos: true
+    # Guess syntax if language isn't specified?
+    guessSyntax: true
+    # Use classes instead of inline styles? (Recommended for customization)
+    noClasses: false
+
+# Privacy settings
+privacy:
+  disqus:
+    disable: false # Keep Disqus enabled as per your config
+  googleAnalytics:
+    disable: true # Disable if not used
+  instagram:
+    disable: true # Disable if not used
+  # Updated from 'twitter' to 'x'
+  x:
+    disable: true # Disable if not used (for embedded tweets/X posts)
+  vimeo:
+    disable: true # Disable if not used
+  youtube:
+    disable: true # Disable if not used

@@ -7,7 +7,6 @@ hidemeta: true
 comments: false
 ---
 
-## About Me
 
 Welcome, and thanks for stopping by.
 
