@@ -1,14 +1,20 @@
 ---
 date: '2025-04-03T01:07:43+04:00'
 draft: false
-title: 'Go Basics: Variables, Types, and Strings'
-tags: ["Go", "Golang", "Tutorial", "Basics", "Variables", "Types", "Strings"]
+title: 'Go Basics: Variables and Types'
+tags: ["Go", "Golang", "Tutorial", "Basics", "Variables", "Types"]
 categories: ["Go Basics"]
 description: ""
 comments: true
+categories: ["Programming", "Golang"]
+tags: ["golang", "tutorial", "beginner"]
+series: ["Golang Fundamentals"]
+series_order: 1
+showToc: true
+weight: 1
 ---
 
-### How's it going yall. Lets learn Go's basics today!
+#### How's it going yall. Lets learn Go's basics today!
 
 Alright, let's dive into the absolute basics of Go! Think of this as your "Level 1" - getting comfy with the fundamentals. No scary stuff, promise!
 

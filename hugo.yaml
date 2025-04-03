@@ -7,7 +7,26 @@ title: Home | # Changed to be more descriptive
 # Theme(s) being used
 theme: ["PaperMod"]
 
-# Pagination settings (New structure)
+# Taxonomies for content organization
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+# Related content configuration
+related:
+  includeNewer: true
+  threshold: 80
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
+    - name: series
+      weight: 90
+
+# Pagination settings
 pagination:
   pagerSize: 5 # Show 5 posts per page on list pages
 
@@ -60,7 +79,7 @@ params:
     subtitle: "Always pursue sunrises and sunsets. Exploring code, creativity, and curiosity." # Enhanced subtitle
     # Image URL for profile picture (ensure this exists in /static/homePage/nyantocat.gif)
     imageUrl: "homePage/nyantocat.gif"
-    imageTitle: "Nyan Cat" # Alt text for the image
+    imageTitle: "NyanToCat" # Alt text for the image
     imageWidth: 120 # Increased size for more impact
     imageHeight: 120 # Increased size for more impact
     buttons:
@@ -72,6 +91,8 @@ params:
         url: "/categories"
       - name: Tags
         url: "/tags"
+      - name: Series
+        url: "/series"
       # - name: About # Consider adding an About Me button if you have an /about page
       #    url: "/about"
 
@@ -93,20 +114,20 @@ params:
 
   # Assets configuration for CSS/JS
   assets:
-    # Favicon files (place these in your /static folder)
-    favicon: "/favicon.ico"
-    favicon16x16: "/favicon-16x16.png"
-    favicon32x32: "/favicon-32x32.png"
-    apple_touch_icon: "/apple-touch-icon.png"
-    safari_pinned_tab: "/safari-pinned-tab.svg"
+    # Favicon files (using your profile picture)
+    favicon: "/img/profile-pic.png"
+    favicon16x16: "/img/profile-pic.png"
+    favicon32x32: "/img/profile-pic.png"
+    apple_touch_icon: "/img/profile-pic.png"
+    safari_pinned_tab: "/img/profile-pic.png"
     # Disable fingerprinting of assets if needed (e.g., for Netlify caching)
     # disableFingerprinting: true
 
   # Optional: Add a logo to the header (place in /static/images/)
   # logo:
-  #   text: "Lahrasab's Blog" # Text logo if no image
-  #   # light: /images/logo-light.png # Path to light mode logo
-  #   # dark: /images/logo-dark.png # Path to dark mode logo
+    # text: "Lahrasab's Blog" # Text logo if no image
+    light: "/img/profile-pic.png" # Path to light mode logo
+    dark: "/img/profile-pic.png" # Path to dark mode logo
 
   # Cover image settings for posts (optional)
   # cover:
@@ -128,11 +149,15 @@ menu:
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 20 # Corrected duplicate and weight
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 30 # Adjusted weight
+      weight: 30
+    - identifier: series
+      name: Series
+      url: /series/
+      weight: 35
     - identifier: archives
       name: Archives
       url: /archives/
@@ -140,7 +165,7 @@ menu:
     - identifier: search
       name: Search
       url: /search/
-      weight: 50 # Moved search towards the end
+      weight: 50
     - identifier: about # Optional: Add About page link
       name: About
       url: /about/

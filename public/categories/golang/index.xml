@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Golang on Home |</title>
+    <link>http://localhost:1313/categories/golang/</link>
+    <description>Recent content in Golang on Home |</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Apr 2025 01:07:43 +0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Basics: Variables and Types</title>
+      <link>http://localhost:1313/blogs/golang/go-basics/</link>
+      <pubDate>Thu, 03 Apr 2025 01:07:43 +0400</pubDate>
+      <guid>http://localhost:1313/blogs/golang/go-basics/</guid>
+      <description>&lt;h4 id=&#34;hows-it-going-yall-lets-learn-gos-basics-today&#34;&gt;How&amp;rsquo;s it going yall. Lets learn Go&amp;rsquo;s basics today!&lt;/h4&gt;
+&lt;p&gt;Alright, let&amp;rsquo;s dive into the absolute basics of Go! Think of this as your &amp;ldquo;Level 1&amp;rdquo; - getting comfy with the fundamentals. No scary stuff, promise!&lt;/p&gt;
+&lt;h3 id=&#34;variables--constants-the-building-blocks&#34;&gt;Variables &amp;amp; Constants: The Building Blocks&lt;/h3&gt;
+&lt;p&gt;First up, variables. In Go, you gotta declare &amp;rsquo;em before you use &amp;rsquo;em. Use the &lt;code&gt;var&lt;/code&gt; keyword, give it a name, and tell Go what &lt;em&gt;type&lt;/em&gt; it is[cite: 9, 21].&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Password Generating with cobra-cli library</title>
+      <link>http://localhost:1313/blogs/cli-apps/password_generator/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/cli-apps/password_generator/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

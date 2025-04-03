@@ -6,17 +6,24 @@
     <description>Recent content on Home |</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Apr 2025 01:51:16 +0400</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 16:43:17 +0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Go Basics: Variables, Types, and Strings</title>
-      <link>http://localhost:1313/blogs/go-basics/</link>
+      <title>Go Basics: Variables and Types</title>
+      <link>http://localhost:1313/blogs/golang/go-basics/</link>
       <pubDate>Thu, 03 Apr 2025 01:07:43 +0400</pubDate>
-      <guid>http://localhost:1313/blogs/go-basics/</guid>
-      <description>&lt;h3 id=&#34;hows-it-going-yall-lets-learn-gos-basics-today&#34;&gt;How&amp;rsquo;s it going yall. Lets learn Go&amp;rsquo;s basics today!&lt;/h3&gt;
+      <guid>http://localhost:1313/blogs/golang/go-basics/</guid>
+      <description>&lt;h4 id=&#34;hows-it-going-yall-lets-learn-gos-basics-today&#34;&gt;How&amp;rsquo;s it going yall. Lets learn Go&amp;rsquo;s basics today!&lt;/h4&gt;
 &lt;p&gt;Alright, let&amp;rsquo;s dive into the absolute basics of Go! Think of this as your &amp;ldquo;Level 1&amp;rdquo; - getting comfy with the fundamentals. No scary stuff, promise!&lt;/p&gt;
 &lt;h3 id=&#34;variables--constants-the-building-blocks&#34;&gt;Variables &amp;amp; Constants: The Building Blocks&lt;/h3&gt;
 &lt;p&gt;First up, variables. In Go, you gotta declare &amp;rsquo;em before you use &amp;rsquo;em. Use the &lt;code&gt;var&lt;/code&gt; keyword, give it a name, and tell Go what &lt;em&gt;type&lt;/em&gt; it is[cite: 9, 21].&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Password Generating with cobra-cli library</title>
+      <link>http://localhost:1313/blogs/cli-apps/password_generator/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/cli-apps/password_generator/</guid>
+      <description></description>
     </item>
     <item>
       <title>About Me</title>
@@ -45,13 +52,6 @@
 &lt;li&gt;A short description or slogan (keep it under 50 characters)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;You can contact me via email at &lt;a href=&#34;mailto:your.email@example.com&#34;&gt;your.email@example.com&lt;/a&gt; with the subject &amp;ldquo;Friend Link Request&amp;rdquo;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>http://localhost:1313/blogs/my-first-post/</link>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/my-first-post/</guid>
-      <description>My journey into creating a static site with Hugo and the PaperMod theme</description>
     </item>
   </channel>
 </rss>
