@@ -12,7 +12,7 @@ comments: true
 ---
 Lately, I’ve been diving into Excel not just as a spreadsheet tool, but as a platform for storytelling through data.
 
-I wanted to build something that wasn't just a collection of raw numbers, but something visual and interactive — a dashboard that actually **says something**. This project started as a quiet experiment and turned into a solid learning experience.
+I wanted to build something that wasn't just a collection of raw numbers, but something visual and interactive dashboard that actually **says something**. This project started as a quiet experiment and turned into a solid learning experience.
 
 ![Excel Dashboard Screenshot](/img/excel-dashboard-1.png)
 *Sample view of one of the dashboards I created.*
@@ -28,7 +28,7 @@ I wanted to build something that wasn't just a collection of raw numbers, but so
 ---
 
 ## Key Insights from the Dashboard
-- **Sales Trend**: September spikes to \$28.7K, with a steady rise from mid-year.  
+- **Sales Trend**: September spikes to \$28.7K, with a steady rise from mid year.  
 - **Top Categories**: Chairs lead at roughly \$59.6K, followed by Bookcases.  
 - **Shipping Modes**: 54% of orders use Standard Class, while First Class accounts for ~19%.  
 - **Delivery Times**: 25% of orders arrive in 4 days; over 60% delivered within 3–5 days.  
@@ -36,7 +36,7 @@ I wanted to build something that wasn't just a collection of raw numbers, but so
 
 ---
 
-I found some inspiration from a concise walkthrough online that showed just how powerful—and surprisingly simple—Excel can be when used intentionally. That nudge helped me shape my own workflow and gave me the momentum to take it further.
+I found some inspiration from a concise walkthrough online that showed just how powerful and surprisingly simple Excel can be when used intentionally. That nudge helped me shape my own workflow and gave me the momentum to take it further.
 
 ---
 
