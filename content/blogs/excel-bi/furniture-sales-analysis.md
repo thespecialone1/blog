@@ -1,20 +1,15 @@
 ---
-date: '2025-06-15T10:00:00Z'
-title: "Building My First Excel Dashboard"
-date: 2025-06-15
+title: "Furniture Sales Analysis"
+date: 2025-06-15T12:00:00+04:00
 draft: false
-tags: ["excel", "dashboard", "pivot tables", "data visualization"]
-description: "Creating an interactive Excel dashboard with PivotTables."
-categories: ["Excel & BI", "Dashboards"]
-series: ["Excel Dashboards"]
-series_order: 1
+tags: ["Excel", "Power BI", "Dashboard", "Data Analysis"]
+categories: ["Excel BI"]
+series: ["BI Projects"]
 showToc: true
-weight: 1
 comments: true
-slug: furniture-sales-analysis
 ---
 
-
+---
 Lately, I’ve been diving into Excel not just as a spreadsheet tool, but as a platform for storytelling through data.
 
 I wanted to build something that wasn't just a collection of raw numbers, but something visual and interactive — a dashboard that actually **says something**. This project started as a quiet experiment and turned into a solid learning experience.

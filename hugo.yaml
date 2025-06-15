@@ -38,7 +38,7 @@ enableGitInfo: true
 # Site parameters (theme-specific and custom)
 params:
   # Site description for SEO
-  description: "Exploring tech, life, and everything in between. Join me on my journey."
+  description: "Exploring tech, life, and everything in between."
   # Author name
   author: Lahrasab Ramzan # Add your name here
   # Default theme (auto, light, dark)
@@ -126,8 +126,13 @@ params:
   # Optional: Add a logo to the header (place in /static/images/)
   # logo:
     # text: "Lahrasab's Blog" # Text logo if no image
-    light: "/img/profile-pic.png" # Path to light mode logo
-    dark: "/img/profile-pic.png" # Path to dark mode logo
+    # light: "/img/profile-pic.png" # Path to light mode logo
+    # dark: "/img/profile-pic.png" # Path to dark mode logo
+  
+  label:
+    text: "Home |"  # Text that appears next to the logo
+    icon: "/img/profile-pic.png"  # Path to your logo image
+    iconHeight: 35  # Height of the logo in pixels
 
   # Cover image settings for posts (optional)
   # cover:
