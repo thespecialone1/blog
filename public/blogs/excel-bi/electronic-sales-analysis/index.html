@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Furniture Sales Analysis | Home |</title>
+<title>Electronics Sales Analysis: From Raw Data to Dashboard Insights | Home |</title>
 <meta name="keywords" content="Excel, Power BI, Dashboard, Data Analysis">
-<meta name="description" content="Building an Excel dashboard to analyze electronics sales performance">
+<meta name="description" content="Building an Excel dashboard to analyze electronics sales performance across regions and product categories">
 <meta name="author" content="Lahrasab Ramzan">
-<link rel="canonical" href="http://localhost:1313/blogs/excel-bi/furniture-sales-analysis/">
+<link rel="canonical" href="http://localhost:1313/blogs/excel-bi/electronic-sales-analysis/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.1c6bdfa6d94a40620ec24e2d3b2f1884ffcff872e0d72fd184d2e99d354a184f.css" integrity="sha256-HGvfptlKQGIOwk4tOy8YhP/P&#43;HLg1y/RhNLpnTVKGE8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/img/profile-pic.png">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/img/profile-pic.png">
@@ -18,8 +18,8 @@
 <link rel="mask-icon" href="http://localhost:1313/img/profile-pic.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blogs/excel-bi/furniture-sales-analysis/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/blogs/excel-bi/furniture-sales-analysis/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blogs/excel-bi/electronic-sales-analysis/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blogs/excel-bi/electronic-sales-analysis/">
 <noscript>
     <style>
         #theme-toggle,
@@ -145,12 +145,12 @@
   <header class="post-header">
     <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/blogs/">Blogs</a>&nbsp;»&nbsp;<a href="http://localhost:1313/blogs/excel-bi/">Excel and Power BI Dashboards</a></div>
     <h1 class="post-title entry-hint-parent">
-      Furniture Sales Analysis
+      Electronics Sales Analysis: From Raw Data to Dashboard Insights
     </h1>
     <div class="post-description">
-      Building an Excel dashboard to analyze electronics sales performance
+      Building an Excel dashboard to analyze electronics sales performance across regions and product categories
     </div>
-    <div class="post-meta"><span title='2025-06-15 12:00:00 +0400 +04'>June 15, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;281 words&nbsp;·&nbsp;Lahrasab Ramzan
+    <div class="post-meta"><span title='2025-06-17 00:00:00 +0000 UTC'>June 17, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;323 words&nbsp;·&nbsp;Lahrasab Ramzan
 
 </div>
   </header> <div class="toc">
@@ -161,58 +161,67 @@
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#step-by-step-process" aria-label="Step-by-Step Process">Step-by-Step Process</a></li>
+                    <a href="#electronics-sales-analysis-from-raw-data-to-dashboard-insights" aria-label="Electronics Sales Analysis: From Raw Data to Dashboard Insights">Electronics Sales Analysis: From Raw Data to Dashboard Insights</a><ul>
+                        
                 <li>
-                    <a href="#key-insights-from-the-dashboard" aria-label="Key Insights from the Dashboard">Key Insights from the Dashboard</a></li>
+                    <a href="#the-dataset" aria-label="The Dataset">The Dataset</a></li>
                 <li>
-                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a>
+                    <a href="#key-findings" aria-label="Key Findings">Key Findings</a></li>
+                <li>
+                    <a href="#technical-approach" aria-label="Technical Approach">Technical Approach</a></li>
+                <li>
+                    <a href="#what-this-reveals" aria-label="What This Reveals">What This Reveals</a></li>
+                <li>
+                    <a href="#next-steps" aria-label="Next Steps">Next Steps</a>
                 </li>
+            </ul>
+            </li>
             </ul>
         </div>
     </details>
 </div>
 
-  <div class="post-content"><hr>
-<p>Lately, I’ve been diving into Excel not just as a spreadsheet tool, but as a platform for storytelling through data.</p>
-<p>I wanted to build something that wasn&rsquo;t just a collection of raw numbers, but something visual and interactive dashboard that actually <strong>says something</strong>. This project started as a quiet experiment and turned into a solid learning experience.</p>
-<p><img alt="Excel Dashboard Screenshot" loading="lazy" src="/img/furniture-sales-dashboard.png">
-<em>Sample view of one of the dashboards I created.</em></p>
-<h2 id="step-by-step-process">Step-by-Step Process<a hidden class="anchor" aria-hidden="true" href="#step-by-step-process">#</a></h2>
-<ol>
-<li><strong>Data Cleaning</strong><br>
-Imported raw sales data, removed duplicates and outliers, standardized date formats.</li>
-<li><strong>Dashboard Design</strong><br>
-Structured worksheets, built PivotTables for key metrics, and arranged elements on a clean canvas.</li>
-<li><strong>Dashboard Design</strong><br>
-Polished visuals, added slicers and charts, tuned layout for clarity and flow.</li>
-</ol>
-<hr>
-<h2 id="key-insights-from-the-dashboard">Key Insights from the Dashboard<a hidden class="anchor" aria-hidden="true" href="#key-insights-from-the-dashboard">#</a></h2>
+  <div class="post-content"><h1 id="electronics-sales-analysis-from-raw-data-to-dashboard-insights">Electronics Sales Analysis: From Raw Data to Dashboard Insights<a hidden class="anchor" aria-hidden="true" href="#electronics-sales-analysis-from-raw-data-to-dashboard-insights">#</a></h1>
+<p>Working with another dataset, this time focusing on electronics sales across different regions and product categories. The goal was simple: turn rows of transaction data into something that actually tells a story.</p>
+<p><img alt="Excel Dashboard Screenshot" loading="lazy" src="/img/electronics-sales-dashboard.png"></p>
+<h2 id="the-dataset">The Dataset<a hidden class="anchor" aria-hidden="true" href="#the-dataset">#</a></h2>
+<p>Starting with basic transaction records:</p>
 <ul>
-<li><strong>Sales Trend</strong>: September spikes to $28.7K, with a steady rise from mid year.</li>
-<li><strong>Top Categories</strong>: Chairs lead at roughly $59.6K, followed by Bookcases.</li>
-<li><strong>Shipping Modes</strong>: 54% of orders use Standard Class, while First Class accounts for ~19%.</li>
-<li><strong>Delivery Times</strong>: 25% of orders arrive in 4 days; over 60% delivered within 3–5 days.</li>
-<li><strong>Regional Performance</strong>: New York drives ~$58.6K in sales, with Pennsylvania and Ohio trailing.</li>
+<li>Order IDs and dates</li>
+<li>Product details (name, category)</li>
+<li>Regional information</li>
+<li>Sales figures, quantities, and costs</li>
 </ul>
-<hr>
-<p>I found some inspiration from a concise walkthrough online that showed just how powerful and surprisingly simple Excel can be when used intentionally. That nudge helped me shape my own workflow and gave me the momentum to take it further.</p>
-<hr>
-<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
-<p>This dashboard taught me that <strong>simplicity beats clutter</strong> and that good visuals start with good data. PivotTables proved their value, and a clear layout made insights pop. Next up: exploring light automation and perhaps a touch of interactivity.</p>
-<hr>
-<p><strong>Tools Used:</strong></p>
+<p>Added a month column to make trend analysis easier. Sometimes the simplest additions make the biggest difference.</p>
+<h2 id="key-findings">Key Findings<a hidden class="anchor" aria-hidden="true" href="#key-findings">#</a></h2>
+<p><strong>Overall Performance:</strong></p>
 <ul>
-<li>Excel</li>
-<li>PivotTables</li>
-<li>Basic Charting</li>
+<li>Total sales: $243.5K</li>
+<li>Units sold: 477</li>
+<li>Profit: $210.7K</li>
+<li>Year-over-year growth: 14%</li>
 </ul>
-<p><strong>Lessons Learned:</strong></p>
+<p><strong>Regional Insights:</strong>
+The West and South regions are driving most of our revenue. East and North are lagging behind, which raises questions about market penetration or customer preferences in those areas.</p>
+<p><strong>Product Performance:</strong>
+Monitors and mice are standout performers. Interesting to see accessories like mice competing with big-ticket electronics. Headphones and keyboards show potential but need deeper analysis.</p>
+<p><strong>Seasonal Patterns:</strong>
+The monthly trend reveals some volatility throughout the year. 2024 shows more consistent performance compared to 2023&rsquo;s peaks and valleys.</p>
+<h2 id="technical-approach">Technical Approach<a hidden class="anchor" aria-hidden="true" href="#technical-approach">#</a></h2>
+<p>Built this using Excel&rsquo;s pivot table functionality combined with calculated fields for the key metrics. The dashboard layout focuses on the most important KPIs upfront, with supporting visualizations below.</p>
+<p><strong>Dashboard Components:</strong></p>
 <ul>
-<li>Clean data is everything.</li>
-<li>Layout and context drive understanding.</li>
-<li>Minimalism highlights the message.</li>
+<li>Performance cards showing key metrics with year-over-year comparisons</li>
+<li>Monthly revenue trend line chart</li>
+<li>Regional sales distribution (horizontal bars)</li>
+<li>Product-wise sales breakdown (column chart)</li>
 </ul>
+<h2 id="what-this-reveals">What This Reveals<a hidden class="anchor" aria-hidden="true" href="#what-this-reveals">#</a></h2>
+<p>The 14% growth is encouraging, but the regional disparities suggest untapped opportunities. The product mix shows we&rsquo;re not just selling expensive items and accessories are pulling their weight too.</p>
+<p>The monthly trends indicate we&rsquo;re getting more consistent, which usually means better forecasting and inventory management.</p>
+<h2 id="next-steps">Next Steps<a hidden class="anchor" aria-hidden="true" href="#next-steps">#</a></h2>
+<p>This analysis raises more questions than it answers, which is exactly what good data exploration should do. Why are certain regions underperforming? What&rsquo;s driving the accessories success? How can we replicate the West region&rsquo;s performance elsewhere?</p>
+<p>That&rsquo;s where the real work begins.</p>
 
 
   </div>
@@ -225,10 +234,15 @@ Polished visuals, added slicers and charts, tuned layout for clarity and flow.</
       <li><a href="http://localhost:1313/tags/data-analysis/">Data Analysis</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/blogs/excel-bi/electronic-sales-analysis/">
+  <a class="prev" href="http://localhost:1313/blogs/cli-apps/password_generator/">
     <span class="title">« Prev</span>
     <br>
-    <span>Electronics Sales Analysis: From Raw Data to Dashboard Insights</span>
+    <span>Password Generating with cobra-cli library</span>
+  </a>
+  <a class="next" href="http://localhost:1313/blogs/excel-bi/furniture-sales-analysis/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Furniture Sales Analysis</span>
   </a>
 </nav>
 
@@ -236,8 +250,8 @@ Polished visuals, added slicers and charts, tuned layout for clarity and flow.</
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-        this.page.url = "http:\/\/localhost:1313\/blogs\/excel-bi\/furniture-sales-analysis\/";
-        this.page.identifier = "68f024b487fc1bf0e03ce03224516382";
+        this.page.url = "http:\/\/localhost:1313\/blogs\/excel-bi\/electronic-sales-analysis\/";
+        this.page.identifier = "0fc58b5e7af423c70de53520583c2023";
     };
     (function() {
         var d = document, s = d.createElement('script');

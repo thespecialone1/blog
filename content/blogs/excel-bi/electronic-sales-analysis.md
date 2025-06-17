@@ -14,6 +14,7 @@ comments: true
 
 Working with another dataset, this time focusing on electronics sales across different regions and product categories. The goal was simple: turn rows of transaction data into something that actually tells a story.
 
+![Excel Dashboard Screenshot](/img/electronics-sales-dashboard.png)
 ## The Dataset
 
 Starting with basic transaction records:
