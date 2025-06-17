@@ -2,6 +2,7 @@
 title: "Furniture Sales Analysis"
 date: 2025-06-15T12:00:00+04:00
 draft: false
+description: "Building an Excel dashboard to analyze electronics sales performance"
 tags: ["Excel", "Power BI", "Dashboard", "Data Analysis"]
 categories: ["Excel BI"]
 series: ["BI Projects"]
@@ -14,7 +15,7 @@ Lately, I’ve been diving into Excel not just as a spreadsheet tool, but as a p
 
 I wanted to build something that wasn't just a collection of raw numbers, but something visual and interactive dashboard that actually **says something**. This project started as a quiet experiment and turned into a solid learning experience.
 
-![Excel Dashboard Screenshot](/img/excel-dashboard-1.png)
+![Excel Dashboard Screenshot](/img/furniture-sales-dashboard.png)
 *Sample view of one of the dashboards I created.*
 
 ## Step-by-Step Process
